@@ -1,6 +1,4 @@
 import os, sys
-# add ../yocto to the PYTHONPATH
-sys.path.append(os.path.join("..","yocto"))
 from yocto.yocto_api import *
 from yocto.yocto_relay import *
 
