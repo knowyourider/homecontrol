@@ -11,3 +11,4 @@ On raspbert pi
 Updates
 ::
 	pip install --upgrade Django==1.11.3
+	pip install --upgrade Django==2.0.7

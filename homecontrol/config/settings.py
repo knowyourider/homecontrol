@@ -32,7 +32,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     #'gunicorn',
-    'skylight',
+    'skylight.apps.SkylightConfig',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -64,7 +64,7 @@ TEMPLATES = [
     },
 ]
 
-ALLOWED_HOSTS = ['devdon.digitalgizmo.com']
+ALLOWED_HOSTS = ['devdon.digitalgizmo.com', '127.0.0.1']
 
 
 
